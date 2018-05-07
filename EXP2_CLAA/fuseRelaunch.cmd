@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Xilinx/project/EXP2_CLAA/CLAA_1_isim_beh.exe" -prj "D:/Xilinx/project/EXP2_CLAA/CLAA_1_beh.prj" "work.CLAA_1" "work.glbl" 

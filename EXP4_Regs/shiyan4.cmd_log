@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Xilinx/project/EXP4_Regs/shiyan4.xst" -ofn "D:/Xilinx/project/EXP4_Regs/shiyan4.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/project/EXP4_Regs/shiyan4.xst" -ofn "D:/Xilinx/project/EXP4_Regs/shiyan4.syr" 

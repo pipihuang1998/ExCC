@@ -1,0 +1,28 @@
+Command line:
+   CLAA_1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  3822
+
+Mon Apr 16 11:48:00 2018
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 1199.78 Meg
+
+ Total Signals          : 43
+ Total Nets             : 38
+ Total Signal Drivers   : 24
+ Total Blocks           : 8
+ Total Primitive Blocks : 6
+ Total Processes        : 26
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 127
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 1199.78 Meg
+
+Mon Apr 16 11:54:42 2018
+

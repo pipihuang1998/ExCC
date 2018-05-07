@@ -1,0 +1,5 @@
+verilog work "carry.v"
+verilog work "Adder.v"
+verilog work "CLAA.v"
+verilog work "CLAA_1.v"
+verilog work "D:/Xilinx/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

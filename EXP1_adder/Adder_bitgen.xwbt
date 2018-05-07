@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Xilinx\project\NO1_adder\Adder.ncd
+OUTFILE=D:\Xilinx\project\NO1_adder\Adder.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Xilinx\project\NO1_adder
+LICENSE=WebPack
+USER_INFO=__0_0_0

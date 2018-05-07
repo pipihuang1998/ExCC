@@ -1,0 +1,162 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3
+-s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top_11.ucf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Addr<0>     |    5.114(R)|      SLOW  |   -1.091(R)|      FAST  |CLK_BUFGP         |   0.000|
+Addr<1>     |    4.856(R)|      SLOW  |   -0.875(R)|      SLOW  |CLK_BUFGP         |   0.000|
+Addr<2>     |    5.020(R)|      SLOW  |   -1.230(R)|      FAST  |CLK_BUFGP         |   0.000|
+Addr<3>     |    4.641(R)|      SLOW  |   -0.940(R)|      FAST  |CLK_BUFGP         |   0.000|
+Addr<4>     |    5.219(R)|      SLOW  |   -1.016(R)|      FAST  |CLK_BUFGP         |   0.000|
+Reset       |    8.410(R)|      SLOW  |   -1.184(R)|      FAST  |CLK_BUFGP         |   0.000|
+Write_Reg   |    6.363(R)|      SLOW  |    0.691(R)|      SLOW  |CLK_BUFGP         |   0.000|
+choose<0>   |    5.979(R)|      SLOW  |   -0.001(R)|      SLOW  |CLK_BUFGP         |   0.000|
+choose<1>   |    4.282(R)|      SLOW  |    0.161(R)|      SLOW  |CLK_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+LED<0>      |        13.102(R)|      SLOW  |         5.967(R)|      FAST  |CLK_BUFGP         |   0.000|
+LED<1>      |        13.572(R)|      SLOW  |         5.594(R)|      FAST  |CLK_BUFGP         |   0.000|
+LED<2>      |        13.874(R)|      SLOW  |         5.762(R)|      FAST  |CLK_BUFGP         |   0.000|
+LED<3>      |        13.528(R)|      SLOW  |         6.371(R)|      FAST  |CLK_BUFGP         |   0.000|
+LED<4>      |        13.666(R)|      SLOW  |         5.455(R)|      FAST  |CLK_BUFGP         |   0.000|
+LED<5>      |        13.473(R)|      SLOW  |         5.714(R)|      FAST  |CLK_BUFGP         |   0.000|
+LED<6>      |        12.731(R)|      SLOW  |         5.433(R)|      FAST  |CLK_BUFGP         |   0.000|
+LED<7>      |        14.155(R)|      SLOW  |         5.234(R)|      FAST  |CLK_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    0.990|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A_B            |LED<0>         |   18.606|
+A_B            |LED<1>         |   18.391|
+A_B            |LED<2>         |   19.649|
+A_B            |LED<3>         |   19.424|
+A_B            |LED<4>         |   18.381|
+A_B            |LED<5>         |   18.986|
+A_B            |LED<6>         |   17.780|
+A_B            |LED<7>         |   18.759|
+Addr<0>        |LED<0>         |   18.434|
+Addr<0>        |LED<1>         |   18.284|
+Addr<0>        |LED<2>         |   19.942|
+Addr<0>        |LED<3>         |   19.717|
+Addr<0>        |LED<4>         |   18.674|
+Addr<0>        |LED<5>         |   19.238|
+Addr<0>        |LED<6>         |   18.073|
+Addr<0>        |LED<7>         |   19.052|
+Addr<1>        |LED<0>         |   16.031|
+Addr<1>        |LED<1>         |   15.816|
+Addr<1>        |LED<2>         |   15.702|
+Addr<1>        |LED<3>         |   16.009|
+Addr<1>        |LED<4>         |   15.726|
+Addr<1>        |LED<5>         |   16.411|
+Addr<1>        |LED<6>         |   14.515|
+Addr<1>        |LED<7>         |   15.759|
+Addr<2>        |LED<0>         |   14.554|
+Addr<2>        |LED<1>         |   14.448|
+Addr<2>        |LED<2>         |   14.821|
+Addr<2>        |LED<3>         |   14.781|
+Addr<2>        |LED<4>         |   14.908|
+Addr<2>        |LED<5>         |   15.038|
+Addr<2>        |LED<6>         |   14.225|
+Addr<2>        |LED<7>         |   15.174|
+Addr<3>        |LED<0>         |   14.048|
+Addr<3>        |LED<1>         |   13.759|
+Addr<3>        |LED<2>         |   14.416|
+Addr<3>        |LED<3>         |   14.009|
+Addr<3>        |LED<4>         |   14.770|
+Addr<3>        |LED<5>         |   14.541|
+Addr<3>        |LED<6>         |   12.866|
+Addr<3>        |LED<7>         |   13.986|
+Addr<4>        |LED<0>         |   14.525|
+Addr<4>        |LED<1>         |   13.904|
+Addr<4>        |LED<2>         |   13.842|
+Addr<4>        |LED<3>         |   14.187|
+Addr<4>        |LED<4>         |   15.166|
+Addr<4>        |LED<5>         |   14.250|
+Addr<4>        |LED<6>         |   12.449|
+Addr<4>        |LED<7>         |   12.290|
+Write_Reg      |LED<0>         |   17.921|
+Write_Reg      |LED<1>         |   17.771|
+Write_Reg      |LED<2>         |   19.429|
+Write_Reg      |LED<3>         |   19.204|
+Write_Reg      |LED<4>         |   18.161|
+Write_Reg      |LED<5>         |   18.725|
+Write_Reg      |LED<6>         |   17.560|
+Write_Reg      |LED<7>         |   18.539|
+choose<0>      |LED<0>         |   11.001|
+choose<0>      |LED<1>         |   10.627|
+choose<0>      |LED<2>         |   10.850|
+choose<0>      |LED<3>         |   11.729|
+choose<0>      |LED<4>         |   10.961|
+choose<0>      |LED<5>         |   11.113|
+choose<0>      |LED<6>         |    9.916|
+choose<0>      |LED<7>         |   13.989|
+choose<1>      |LED<0>         |   10.536|
+choose<1>      |LED<1>         |   10.844|
+choose<1>      |LED<2>         |   10.404|
+choose<1>      |LED<3>         |   10.445|
+choose<1>      |LED<4>         |   10.217|
+choose<1>      |LED<5>         |   10.244|
+choose<1>      |LED<6>         |    9.454|
+choose<1>      |LED<7>         |    9.415|
+---------------+---------------+---------+
+
+
+Analysis completed Mon May 07 19:40:09 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 300 MB
+
+
+
