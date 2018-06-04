@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "D:/sophomore/computer composition/EXP7/EXP7.xst" -ofn "D:/sophomore/computer composition/EXP7/EXP7.syr" 
+xst -intstyle ise -ifn "D:/sophomore/computer composition/EXP7/EXP7.xst" -ofn "D:/sophomore/computer composition/EXP7/EXP7.syr" 
+xst -intstyle ise -ifn "D:/sophomore/computer composition/EXP7/EXP7.xst" -ofn "D:/sophomore/computer composition/EXP7/EXP7.syr" 
+xst -intstyle ise -ifn "D:/sophomore/computer composition/EXP7/EXP7.xst" -ofn "D:/sophomore/computer composition/EXP7/EXP7.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 "EXP7.ngc" EXP7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP7_map.ncd EXP7.ngd EXP7.pcf 
+par -w -intstyle ise -ol high -mt off EXP7_map.ncd EXP7.ncd EXP7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP7.twx EXP7.ncd -o EXP7.twr EXP7.pcf 
+xst -intstyle ise -ifn "D:/sophomore/computer composition/EXP7/EXP7.xst" -ofn "D:/sophomore/computer composition/EXP7/EXP7.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 "EXP7.ngc" EXP7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP7_map.ncd EXP7.ngd EXP7.pcf 
+par -w -intstyle ise -ol high -mt off EXP7_map.ncd EXP7.ncd EXP7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP7.twx EXP7.ncd -o EXP7.twr EXP7.pcf 
+bitgen -intstyle ise -f EXP7.ut EXP7.ncd 
+xst -intstyle ise -ifn "D:/sophomore/computer composition/EXP7/EXP7.xst" -ofn "D:/sophomore/computer composition/EXP7/EXP7.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 "EXP7.ngc" EXP7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP7_map.ncd EXP7.ngd EXP7.pcf 
+par -w -intstyle ise -ol high -mt off EXP7_map.ncd EXP7.ncd EXP7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP7.twx EXP7.ncd -o EXP7.twr EXP7.pcf 
+bitgen -intstyle ise -f EXP7.ut EXP7.ncd 
+xst -intstyle ise -ifn "D:/sophomore/computer composition/EXP7/EXP7.xst" -ofn "D:/sophomore/computer composition/EXP7/EXP7.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP7.ucf -p xc6slx16-csg324-3 "EXP7.ngc" EXP7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP7_map.ncd EXP7.ngd EXP7.pcf 
+par -w -intstyle ise -ol high -mt off EXP7_map.ncd EXP7.ncd EXP7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP7.twx EXP7.ncd -o EXP7.twr EXP7.pcf -ucf EXP7.ucf 
+bitgen -intstyle ise -f EXP7.ut EXP7.ncd 
+xst -intstyle ise -ifn "D:/sophomore/computer composition/EXP7/EXP7.xst" -ofn "D:/sophomore/computer composition/EXP7/EXP7.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP7.ucf -p xc6slx16-csg324-3 "EXP7.ngc" EXP7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP7_map.ncd EXP7.ngd EXP7.pcf 
+par -w -intstyle ise -ol high -mt off EXP7_map.ncd EXP7.ncd EXP7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP7.twx EXP7.ncd -o EXP7.twr EXP7.pcf -ucf EXP7.ucf 
+xst -intstyle ise -ifn "D:/sophomore/computer composition/EXP7/EXP7.xst" -ofn "D:/sophomore/computer composition/EXP7/EXP7.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP7.ucf -p xc6slx16-csg324-3 "EXP7.ngc" EXP7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP7_map.ncd EXP7.ngd EXP7.pcf 
+par -w -intstyle ise -ol high -mt off EXP7_map.ncd EXP7.ncd EXP7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP7.twx EXP7.ncd -o EXP7.twr EXP7.pcf -ucf EXP7.ucf 
+bitgen -intstyle ise -f EXP7.ut EXP7.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/project/EXP7/EXP7.xst" -ofn "D:/Xilinx/project/EXP7/EXP7.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/project/EXP7/EXP7.xst" -ofn "D:/Xilinx/project/EXP7/EXP7.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/project/EXP7/EXP7.xst" -ofn "D:/Xilinx/project/EXP7/EXP7.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/project/EXP7/EXP7.xst" -ofn "D:/Xilinx/project/EXP7/EXP7.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP7.ucf -p xc6slx16-csg324-3 EXP7.ngc EXP7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP7_map.ncd EXP7.ngd EXP7.pcf 
+par -w -intstyle ise -ol high -mt off EXP7_map.ncd EXP7.ncd EXP7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP7.twx EXP7.ncd -o EXP7.twr EXP7.pcf -ucf EXP7.ucf 
+bitgen -intstyle ise -f EXP7.ut EXP7.ncd 

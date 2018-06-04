@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Xilinx\project\EXP4_Regs\top.ncd
+OUTFILE=D:\Xilinx\project\EXP4_Regs\top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Xilinx\project\EXP4_Regs
+LICENSE=WebPack
+USER_INFO=__0_0_0
