@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/RAM.v"
+verilog work "ipcore_dir/IROM.v"
+verilog work "MAIN.v"

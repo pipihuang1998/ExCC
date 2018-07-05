@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/Xilinx/aklis/teoca/EXPR9/RICPU.xst" -ofn "D:/Xilinx/aklis/teoca/EXPR9/RICPU.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/aklis/teoca/EXPR9/RICPU.xst" -ofn "D:/Xilinx/aklis/teoca/EXPR9/RICPU.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/aklis/teoca/EXPR9/RICPU.xst" -ofn "D:/Xilinx/aklis/teoca/EXPR9/RICPU.syr" 
